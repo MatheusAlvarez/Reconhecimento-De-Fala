@@ -7,6 +7,7 @@
 # | CONTATO: (11)99423-7418                     |
 # |=============================================|
 
+
 # Biblioteca speech-recognition (instalar no terminal "pip install SpeechRecognition" e o pyaudio)
 import speech_recognition as sr
 
