@@ -25,7 +25,10 @@ with sr.Microphone() as mic:
     audio = rec.listen(mic)
     texto = rec.recognize_google(audio, language="pt-BR")
     
+    # O programa vai imprimir na tela que está digitando a sua fala
     print('Escrevendo texto...')
+    
+    # Sleep vai dar animação para não escrever a sua fala direto
     sleep(1)
     
     print(texto)
