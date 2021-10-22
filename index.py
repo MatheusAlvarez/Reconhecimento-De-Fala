@@ -19,6 +19,7 @@ rec = sr.Recognizer()
 with sr.Microphone() as mic:
     rec.adjust_for_ambient_noise(mic)
     
+    # O programa vai imprimir na tela que está gravando
     print('Pode falar! Estou gravando...')
     
     audio = rec.listen(mic)
@@ -26,4 +27,5 @@ with sr.Microphone() as mic:
     
     print('Escrevendo texto...')
     sleep(1)
+    
     print(texto)
