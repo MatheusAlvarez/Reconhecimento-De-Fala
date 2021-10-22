@@ -22,6 +22,7 @@ with sr.Microphone() as mic:
     # O programa vai imprimir na tela que está gravando
     print('Pode falar! Estou gravando...')
     
+    # A variável "audio" vai receber oq você falar no microfone
     audio = rec.listen(mic)
     texto = rec.recognize_google(audio, language="pt-BR")
     
