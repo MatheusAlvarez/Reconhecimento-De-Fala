@@ -31,4 +31,5 @@ with sr.Microphone() as mic:
     # Sleep vai dar animação para não escrever a sua fala direto
     sleep(1)
     
+    
     print(texto)
