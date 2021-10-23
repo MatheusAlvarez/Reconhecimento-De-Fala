@@ -36,3 +36,5 @@ with sr.Microphone() as mic:
     
     # Vai imprimir na tela a sua fala
     print(texto)
+    
+#Fim do programa
