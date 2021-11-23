@@ -4,7 +4,7 @@
 # | PROPOSTA : RECONHECIMENTO DE FALA           |
 # | FEITO POR: MATHEUS MAIA ALVAREZ             |
 # | GITHUB: https://github.com/MatheusAlvarez   |
-# | CONTATO: (11)99423-7418                     |
+# | CONTATO: mthalvarez0000@hotmail.com         |
 # |=============================================|
 
 
